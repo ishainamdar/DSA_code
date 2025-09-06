@@ -1,12 +1,21 @@
-public class Reverse_num {
+//int chya range madhech number reverse zhala pahije
+class Reverse_num{
     public static void main(String[] args) {
-        int N=12345;
-        int temp=N;
-        int rev=0;
-        while(temp!=0){
-            rev = rev * 10+(temp%10);
-            temp/=10;
+        int x=12345;
+        long rev = 0; // use long to catch overflow safely
+        while (x != 0) {
+            rev = rev * 10 + x % 10;
+            x /= 10;
         }
-        System.out.println(rev);
+        // check if result is out of int range
+        if (rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE) {
+           System.out.println("out of range");
+        }
+        else{
+            System.out.println((int)rev);
+        }
+        
     }
+  
+        
 }
