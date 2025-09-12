@@ -1,4 +1,4 @@
-import java.util.Vector;
+// import java.util.Vector;
 
 public class Divisors {
     public static void main(String[] args) {
