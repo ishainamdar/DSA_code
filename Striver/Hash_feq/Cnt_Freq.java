@@ -13,7 +13,7 @@ public static void fun(int[] arr,int hash[]){
     System.out.println("hello");
         int hash[]=new int[256];
         int arr[]={10,5,10,15,10,5};
-        int num=10;
+        //int num=10;
         fun(arr, hash);
         int i=0;
         while(i<5){
