@@ -32,3 +32,4 @@ public class Selection_Sort {
     
 
 }
+//TC=> O(N^2)
